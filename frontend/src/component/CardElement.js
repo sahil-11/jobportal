@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -14,7 +13,7 @@ import AddIcon from '@mui/icons-material/Add';
 const CardElement = ({ jobTitle, description, category, location, id }) => {
     const { palette } = useTheme();
     return (
-        <Card sx={{ minWidth: 275, mb: 3, mt: 3 }}>
+        <Card sx={{ minWidth: 275, mb: 3, mt: 3, bgcolor: palette.primary.white }}>
 
             <CardContent >
                 <Typography sx={{ fontSize: 15, color: palette.secondary.main, fontWeight: 500 }} gutterBottom>

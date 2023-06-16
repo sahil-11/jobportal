@@ -41,7 +41,7 @@ const SearchInputEl = () => {
             <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                 {/* <Search> */}
 
-                <InputBase sx={{ bgcolor: 'white', padding: '10px' }}
+                <InputBase sx={{ bgcolor: 'white', padding: '10px', color: "rgba(0, 0, 0, 0.9)" }}
                     fullWidth={true}
                     id="search"
                     name="search"
